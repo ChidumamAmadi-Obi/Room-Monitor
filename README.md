@@ -2,10 +2,10 @@
 
 A USB-powered embedded system built on the ATmega328 microcontroller for real-time monitoring of indoor temperature, humidity, and air quality. Displays live sensor data on an LCD screen, provides audible/visual alerts when environmental values go out of range, and offers user-customizable settings via a rotary encoder interface.
 
-![IMG_2458](https://github.com/user-attachments/assets/ee2c45a8-06cc-4976-81b7-23200d3329cf)
+![RoomMonitor gif](https://github.com/user-attachments/assets/9264ad2e-0142-4514-a347-18b75458b19e)
+![IMG_2458](https://github.com/user-attachments/assets/ee2c45a8-06cc-4976-81b7-23200d3329cf)!
 
 ## 🔧 Features
-
 - **Real-Time Environment Monitoring**
   - Monitors temperature, humidity, and air quality using onboard sensors.
   - Data displayed on a 16x2 LCD screen.
@@ -35,7 +35,7 @@ A USB-powered embedded system built on the ATmega328 microcontroller for real-ti
   - LED for visual alerts
 
 ## 🛠️ How It Works
-
+![Screenshot 2025-06-01 210545](https://github.com/user-attachments/assets/69fddbdb-38e8-4065-92b9-37dd44a8eb5f)
 1. On start up the system displays a loading animation to allow the air quality sensor to heat up
 
 2. The system goes into its monitoring state, displaying air quality, temperature and humidity readings on the display. its possible to customize the backlight color here.
@@ -54,6 +54,7 @@ A USB-powered embedded system built on the ATmega328 microcontroller for real-ti
  
 ![Screenshot 2025-06-01 210504](https://github.com/user-attachments/assets/11fefbc9-64a6-42c8-b282-090952b944ae)
 
- **State Diagram**
- 
-![Screenshot 2025-06-01 210545](https://github.com/user-attachments/assets/69fddbdb-38e8-4065-92b9-37dd44a8eb5f)
+ **Assembled PCB**
+![PCB](https://github.com/user-attachments/assets/fe57c225-1a96-4b35-8c68-d41d812004ea)
+![PCB2](https://github.com/user-attachments/assets/b6b66159-c3de-483c-81bd-5781723ce417)
+
