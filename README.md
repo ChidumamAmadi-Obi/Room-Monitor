@@ -3,7 +3,6 @@
 A USB-powered embedded system built on the ATmega328 microcontroller for real-time monitoring of indoor temperature, humidity, and air quality. Displays live sensor data on an LCD screen, provides audible/visual alerts when environmental values go out of range, and offers user-customizable settings via a rotary encoder interface.
 
 ![RoomMonitor gif](https://github.com/user-attachments/assets/9264ad2e-0142-4514-a347-18b75458b19e)
-![IMG_2458](https://github.com/user-attachments/assets/ee2c45a8-06cc-4976-81b7-23200d3329cf)!
 
 ## 🔧 Features
 - **Real-Time Environment Monitoring**
