@@ -41,6 +41,29 @@ A USB-powered embedded system built on the ATmega328 microcontroller for real-ti
 3. When the encoder is pressed the system goes into its menus state, the user can customize the temperature and humidity parameters here.
 4. When the encoder is pressed again the system goes back into its monitoring state.
 
+## Setup Instructions 
+
+1. Clone this repository:
+```
+git clone https://github.com/ChidumamAmadi-Obi/Room-Monitor.git
+cd "Room-Monitor/EnviromentalRoomMonitor/Arduino Code"
+```
+2. Open the .ino file in the Arduino IDE.
+3. install and include required libraries:
+```
+#include "DHT.h"
+#include "rgb_lcd.h"
+#include "Air_Quality_Sensor.h"
+#include <Wire.h>
+#include <SimpleRotary.h>
+#include <avr/wdt.h>
+#include "CustomChars.h"
+```
+4. Connect the hardware ad per wireing diagram.
+<img width="963" height="727" alt="image" src="https://github.com/user-attachments/assets/671eedaa-b898-473e-81a0-19852f81f875" />
+5. Flash the code to your Arduino.
+6. Use the rotary encoder to navigate menus and configure settings.
+
 ## 💡Future Improvements
 
 - Integrate Bluetooth / WiFi for remote monitoring
@@ -54,6 +77,7 @@ A USB-powered embedded system built on the ATmega328 microcontroller for real-ti
 ![Screenshot 2025-06-01 210504](https://github.com/user-attachments/assets/11fefbc9-64a6-42c8-b282-090952b944ae)
 
  **Assembled PCB**
+ 
 ![PCB](https://github.com/user-attachments/assets/fe57c225-1a96-4b35-8c68-d41d812004ea)
 ![PCB2](https://github.com/user-attachments/assets/b6b66159-c3de-483c-81bd-5781723ce417)
 
