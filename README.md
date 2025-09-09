@@ -60,7 +60,9 @@ cd "Room-Monitor/EnviromentalRoomMonitor/Arduino Code"
 #include "CustomChars.h"
 ```
 4. Connect the hardware ad per wireing diagram.
+
 <img width="963" height="727" alt="image" src="https://github.com/user-attachments/assets/671eedaa-b898-473e-81a0-19852f81f875" />
+
 5. Flash the code to your Arduino.
 6. Use the rotary encoder to navigate menus and configure settings.
 
