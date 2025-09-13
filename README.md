@@ -20,10 +20,10 @@ A USB-powered embedded system built on the ATmega328 microcontroller for real-ti
 - **USB Powered**
   - Plug-and-play operation via any 5V USB power source.
 
-## 🧠 Tech Stack & Components
+## 🧠 Tech Stack & Hardware
 
 - **Microcontroller**: ATmega328 (Arduino Uno-compatible)
--  **Firmware**: Embedded C / Arduino framework
+- **Firmware**: Embedded C / Arduino framework
 - **Power**: 5V USB via micro-USB or USB-A
 - **Components**:
   - DHT11 (Temperature + Humidity)
