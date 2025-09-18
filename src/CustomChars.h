@@ -1,3 +1,6 @@
+#ifndef CUSTOM_CHARS
+#define CUSTOM_CHARS
+
 byte thermometer[8] = {
   B01110,
   B01010,
@@ -73,4 +76,7 @@ byte topXBottomCheck[8] = {
   B00010,
   B10100,
   B01000
+
 };
+
+#endif
