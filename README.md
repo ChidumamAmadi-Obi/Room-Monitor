@@ -6,6 +6,8 @@ A USB-powered embedded system built on the ATmega328 microcontroller for real-ti
 
 [](https://github.com/user-attachments/assets/0431f361-fa1b-4bb0-8a8c-df099d06bf56)
 
+![](https://github.com/user-attachments/assets/0431f361-fa1b-4bb0-8a8c-df099d06bf56)
+
 ## 🔧 Features
 - **Real-Time Environment Monitoring**
   - Monitors temperature, humidity, and air quality using onboard sensors.
